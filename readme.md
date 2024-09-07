@@ -2,17 +2,23 @@
 
 工具：
 
-1. texlive `brew install texlive`
+1. texlive : `brew install texlive`
 
-   1. pdftex 
+   1. pdftex : \pdfmapline `<` for pfb and `<<` for otf
 
    2. mf2pt1
 
-2. pdffonts  `brew install poppler`
+   3. mktexpk 
 
-3. fontforge https://github.com/fontforge/fontforge `brew install fontforge`
+2. pdffonts : `brew install poppler` `brew list poppler`
 
-4. xquartz https://www.xquartz.org
+3. fontforge : https://github.com/fontforge/fontforge `brew install fontforge`
+
+4. xquartz : https://www.xquartz.org
+
+5. cp : macOS builtin command-line tool
+
+6. sudo : macOS builtin command-line tool
 
    
 
@@ -88,7 +94,7 @@ mktexpk: /usr/local/texlive/2024/texmf-var/fonts/pk/ljfour/public/knuth-lib/logo
 
 ## 生成并使用pfb字体
 
-不过 ，有没有一种方式，直接生成pfb字体，然后调用呢？毕竟点阵字体不够美观，texlive是有这种工具的——mf2pt1，在命令行执行：
+不过 ，有没有一种方式，直接生成pfb字体，然后调用呢？毕竟点阵字体不够美观，texlive是有这种工具的——mf2pt1[^1]，在命令行执行：
 
 ```
 mf2pt1 xbmc10.mf
@@ -180,4 +186,8 @@ SOJQKW+CMEX10
 ![image-20240907095308433](./image-20240907095308433.png)
 
 同理生成logo10.pfb。
+
+## Reference
+
+[^1]: mf2pt1 `texdoc mf2pt1`
 
