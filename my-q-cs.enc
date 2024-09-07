@@ -100,7 +100,7 @@
 /Y
 /Z
 /bracketleft
-/quotedblleft % /backslash
+/quotedblleft
 /bracketright
 /circumflex
 /dotaccent
@@ -263,5 +263,5 @@
 /udieresis
 /yacute
 /quotedblbase
-/backslash # origin is /quotedblleft
+/backslash 
 ] def

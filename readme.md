@@ -187,6 +187,26 @@ SOJQKW+CMEX10
 
 同理生成logo10.pfb。
 
+|pdftex.tex|tex.tex|
+|--|--|
+|cmbx10.pfb|cmbx10.pfb|
+|cmex10.pfb|cmex10.pfb|
+|cmmi10.pfb|cmmi10.pfb|
+|cmmi7.pfb|cmmi7.pfb|
+|cmr7.pfb|cmr7.pfb|
+|cmr8.pfb|cmr8.pfb|
+|cmr9.pfb|cmr9.pfb|
+|cmsl10.pfb|cmsl10.pfb|
+|cmsy10.pfb|cmsy10.pfb|
+|cmsy7.pfb|cmsy7.pfb|
+|cmtex10.pfb|cmtex10.pfb|
+|cmti10.pfb|cmti10.pfb|
+|cmtt10.pfb|cmtt10.pfb|
+|logo10.pfb|logo10.pfb|
+|qplr.pfb|qplr.pfb% |
+|xbmc10.pfb% |
+
+
 ## Reference
 
 [^1]: mf2pt1 `texdoc mf2pt1`
