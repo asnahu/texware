@@ -2,11 +2,17 @@
 
 工具：
 
-1. pdftex
+1. texlive `brew install texlive`
 
-2. mf2pt1
+   1. pdftex 
 
-3. pdffonts 
+   2. mf2pt1
+
+2. pdffonts  `brew install poppler`
+
+3. fontforge https://github.com/fontforge/fontforge `brew install fontforge`
+
+4. xquartz https://www.xquartz.org
 
    
 
