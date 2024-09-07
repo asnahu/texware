@@ -126,7 +126,7 @@ mf2pt1 is using the following font parameters:
 
 用fontforge打开生成的XBMC10.pfb：
 
-![image-20240907093822382](/Users/qin/Documents/Tex_Document/texware/image-20240907093822382.png)
+![image-20240907093822382](./image-20240907093822382.png)
 
 把生成xbmc10.pfb和xbmc10.afm复制到`/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/` 执行 
 
@@ -171,7 +171,7 @@ CCZYIA+CMMI7
 IPXVPS+logo10-Medium
 SOJQKW+CMEX10
 ```
-![image-20240907095308433](/Users/qin/Documents/Tex_Document/texware/image-20240907095308433.png)
+![image-20240907095308433](./image-20240907095308433.png)
 
 同理生成logo10.pfb。
 
